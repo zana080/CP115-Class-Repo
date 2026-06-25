@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 03:33:13 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzoyNzoxOSBQTTsyNzYw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzozMzoxMyBQTTsxOzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="exchangesRate" type="Integer" array="False" size=""/>
+            <input variable="exchangesRate"/>
+            <declare name="totalBath" type="Integer" array="False" size=""/>
+            <output expression="totalBath" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
