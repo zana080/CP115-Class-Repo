@@ -3,7 +3,7 @@ import subprocess
 import sys
 import os
 
-
+   
 @pytest.fixture
 def exercise_path():
     """Path to the student's solution file."""
