@@ -1,0 +1,13 @@
+Compute final price for magazines:
+
+Algorithm summary:
+- Input: integer magazineNumber
+- If magazineNumber >= 5 then unitPrice = 5 else unitPrice = 7
+- finalPrice = magazineNumber * unitPrice
+- Output: finalPrice
+
+This file is kept to ensure the example directory is tracked by git.
+
+$CURSOR$
+
+c:\Users\User\Documents\lab-4-0.py
