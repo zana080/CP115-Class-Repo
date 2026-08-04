@@ -1,0 +1,40 @@
+name: Lab 05 Tests
+
+on:
+  push:
+    paths:
+      - 'labs/lab05/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Verify exercise1.py exists
+        if: always()
+        run: test -f labs/lab05/exercise1.py
+
+      - name: Verify exercise2.py exists
+        if: always()
+        run: test -f labs/lab05/exercise2.py
+
+      - name: Verify exercise3.py exists
+        if: always()
+        run: test -f labs/lab05/exercise3.py
+
+      - name: Verify exercise4.py exists
+        if: always()
+        run: test -f labs/lab05/exercise4.py
+
+      - name: Verify exercise5.py exists
+        if: always()
+        run: test -f labs/lab05/exercise5.py
+
+      - name: Verify exercise6.py exists
+        if: always()
+        run: test -f labs/lab05/exercise6.py
+
+      - name: Verify exercise7.py exists
+        if: always()
+        run: test -f labs/lab05/exercise7.py

@@ -71,3 +71,53 @@ jobs:
       - name: Exercise 4 - run tests
         if: always()
         run: python -m pytest exercise4/test/ --tb=no -q --no-header
+
+      # --- Exercise 5 ---
+      - name: Exercise 5 - verify files exist
+        if: always()
+        run: |
+          test -f exercise5/lab-4-5.png
+          test -f exercise5/lab-4-5.py
+      - name: Exercise 5 - run tests
+        if: always()
+        run: python -m pytest exercise5/test/ --tb=no -q --no-header
+
+      # --- Exercise 6 ---
+      - name: Exercise 6 - verify files exist
+        if: always()
+        run: |
+          test -f exercise6/lab-4-6.png
+          test -f exercise6/lab-4-6.py
+      - name: Exercise 6 - run tests
+        if: always()
+        run: python -m pytest exercise6/test/ --tb=no -q --no-header
+
+      # --- Exercise 7 ---
+      - name: Exercise 7 - verify files exist
+        if: always()
+        run: |
+          test -f exercise7/lab-4-7.png
+          test -f exercise7/lab-4-7.py
+      - name: Exercise 7 - run tests
+        if: always()
+        run: python -m pytest exercise7/test/ --tb=no -q --no-header
+
+      # --- Exercise 8 ---
+      - name: Exercise 8 - verify files exist
+        if: always()
+        run: |
+          test -f exercise8/lab-4-8.png
+          test -f exercise8/lab-4-8.py
+      - name: Exercise 8 - run tests
+        if: always()
+        run: python -m pytest exercise8/test/ --tb=no -q --no-header
+
+      # --- Exercise 9 ---
+      - name: Exercise 9 - verify files exist
+        if: always()
+        run: |
+          test -f exercise9/lab-4-9.png
+          test -f exercise9/lab-4-9.py
+      - name: Exercise 9 - run tests
+        if: always()
+        run: python -m pytest exercise9/test/ --tb=no -q --no-header
